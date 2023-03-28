@@ -513,6 +513,34 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.left-auto {
+  left: auto;
+}
+
+.right-auto {
+  right: auto;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -618,6 +646,11 @@ video {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-extrabold {

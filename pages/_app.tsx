@@ -13,6 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       />
       <main className={rubik.className}>
         <Component {...pageProps} />
+      <div className="absolute bottom-0 left-0 right-0 text-center">Made by <a href="https://icey.dev">Icey.dev</a> <span className="text-xs">*Acest site este un pamflet</span></div> 
       </main>
     </>
   );
